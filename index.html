@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+              <meta charset="UTF-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+              <link rel="preconnect" href="https://fonts.googleapis.com" />
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+              <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+              <link
+                     rel="stylesheet"
+                     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+                     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+                     crossorigin="anonymous"
+                     referrerpolicy="no-referrer"
+              />
+
+              <link rel="stylesheet" href="./css/style.css" />
+              <title>Document</title>
+       </head>
+       <body>
+              <!-- .app is container of all -->
+              <section class="app">
+                     <!-- start of header -->
+                     <header>
+                            <nav>
+                                   <!-- header logo -->
+                                   <img src="images/logo-black.png" alt="header-logo" class="header-logo" />
+
+                                   <!-- this button is for burger menu -->
+                                   <button class="header-menu-burger" onclick="showMenu()">
+                                          burger<i class="fas fa-bars"></i>
+                                   </button>
+
+                                   <!-- start of header nav -->
+                                   <ul class="header-menu">
+                                          <li class="header-menu-item">
+                                                 <a class="header-menu-item-link" href="#">NEWS</a>
+                                          </li>
+                                          <li class="header-menu-item">
+                                                 <a class="header-menu-item-link" href="#">GUIDES & ANALYSTICS</a>
+                                          </li>
+                                          <li class="header-menu-item">
+                                                 <a class="header-menu-item-link" href="#">EVENTS</a>
+                                          </li>
+                                          <li class="header-menu-item">
+                                                 <a class="header-menu-item-link" href="#">EXPLAINED</a>
+                                          </li>
+                                          <li class="header-menu-item">
+                                                 <a class="header-menu-item-link" href="#">ICON CLEANER</a>
+                                          </li>
+                                   </ul>
+                                   <!-- .clear-fix is for solving  float problem -->
+                                   <section class="clear-fix"></section>
+                            </nav>
+                            <!-- end of header nav -->
+                     </header>
+                     <!-- end of header -->
+
+                     <!-- .content is container of everything  except  header nav & footer  -->
+                     <section class="content">
+                            <!-- start of grid system of header -->
+                            <section class="grid-system">
+                                   <!-- .col-2-3 is the biggest one -->
+                                   <section class="col-2-3 grid-system-item">
+                                          <img src="./images/slider-1-1200x900.jpg" class="grid-system-item-img" />
+                                          <section class="grid-system-item-desc">
+                                                 <a href="#">
+                                                        <h1>
+                                                               Peter Thiels VC Found Invests Million info Bitcoin Market
+                                                               Reacts
+                                                        </h1>
+                                                 </a>
+                                                 <ul class="info-bar">
+                                                        <li>
+                                                               <span class="text-muted">
+                                                                      by
+                                                                      <a href="#"
+                                                                             ><b class="text-black"
+                                                                                    >Olivia Capzallo</b
+                                                                             ></a
+                                                                      >, Jan 25,2018
+                                                               </span>
+                                                        </li>
+                                                        <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                        <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                 </ul>
+                                          </section>
+                                   </section>
+                                   <!-- end of .col-2-3 the biggest one -->
+                                   <section class="grid-system-item">
+                                          <img src="./images/slider-2-450x600.jpg" class="grid-system-item-img" />
+                                          <section class="grid-system-item-desc">
+                                                 <a href="#">
+                                                        <h1>Russians Bisiops Condems Cryptocurrency</h1>
+                                                 </a>
+                                                 <ul class="info-bar">
+                                                        <li>Jan 25,2018</li>
+                                                        <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                        <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                 </ul>
+                                          </section>
+                                   </section>
+                                   <section class="grid-system-item">
+                                          <img src="./images/slider-3-450x600.jpg" class="grid-system-item-img" />
+                                          <section class="grid-system-item-desc">
+                                                 <a href="#">
+                                                        <h1>Bitcoin Adoption by Business in 2017</h1>
+                                                 </a>
+                                                 <ul class="info-bar">
+                                                        <li>Jan 25,2018</li>
+                                                        <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                        <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                 </ul>
+                                          </section>
+                                   </section>
+                                   <section class="grid-system-item">
+                                          <img src="./images/slider-4-450x600.jpg" class="grid-system-item-img" />
+                                          <section class="grid-system-item-desc">
+                                                 <a href="#">
+                                                        <h1>2017 Market Performance: Crypto vs Stock</h1>
+                                                 </a>
+                                                 <ul class="info-bar">
+                                                        <li>Jan 25,2018</li>
+                                                        <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                        <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                 </ul>
+                                          </section>
+                                   </section>
+                                   <section class="grid-system-item">
+                                          <img src="./images/slider-5-450x600.jpg" class="grid-system-item-img" />
+                                          <section class="grid-system-item-desc">
+                                                 <a href="#">
+                                                        <h1>
+                                                               Culture Stock: Bitcoin a part of alll Walks of life in
+                                                               2017
+                                                        </h1>
+                                                 </a>
+                                                 <ul class="info-bar">
+                                                        <li>Jan 25,2018</li>
+                                                        <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                        <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                 </ul>
+                                          </section>
+                                   </section>
+                                   <section class="grid-system-item">
+                                          <img src="./images/slider-6-450x600.jpg" class="grid-system-item-img" />
+                                          <section class="grid-system-item-desc">
+                                                 <a href="#">
+                                                        <h1>Bitcoin Billionares Hidding in Plain Sight</h1>
+                                                 </a>
+                                                 <ul class="info-bar">
+                                                        <li>Jan 25,2018</li>
+                                                        <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                        <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                 </ul>
+                                          </section>
+                                   </section>
+                            </section>
+                            <!-- end of grid system of header -->
+
+                            <!-- .container contains main & sidebar of website -->
+                            <section class="container">
+                                   <!-- start of main base -->
+                                   <main class="main">
+                                          <!-- .main-news is the biggest news in main base -->
+
+                                          <section class="main-news">
+                                                 <h2 class="title">RECENT NEWS</h2>
+
+                                                 <!-- start of a news -->
+                                                 <article>
+                                                        <img
+                                                               class="main-news-img"
+                                                               src="./images/recent-news-1-600x450.jpg"
+                                                        />
+                                                        <h3 class="article-title">
+                                                               <a href="#">2017 Market Performance: Crypto vs Stock</a>
+                                                        </h3>
+                                                        <ul class="info-bar">
+                                                               <li>
+                                                                      <span class="text-muted">
+                                                                             by
+                                                                             <a href="#"
+                                                                                    ><b class="text-black"
+                                                                                           >Olivia Capzallo</b
+                                                                                    ></a
+                                                                             >, Jan 25,2018
+                                                                      </span>
+                                                               </li>
+                                                               <li><i class="fa fa-bolt text-yellow"></i>30,190</li>
+                                                               <li><i class="fa fa-comment text-yellow"></i>30</li>
+                                                        </ul>
+                                                        <p>
+                                                               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                               Repudiandae numquam nisi vero accusamus, delectus dicta,
+                                                               a facilis ducimus iste, natus et in porro quam fugiat.
+                                                        </p>
+                                                 </article>
+                                                 <!-- end of a news -->
+                                          </section>
+                                          <!-- .main-news  ends  here -->
+
+                                          <!-- start of crypto mining news -->
+
+                                          <section class="main-crypto-mining-news">
+                                                 <h2 class="title">CRYPTO MINING NEWS</h2>
+
+                                                 <section class="main-crypto-mining-news-container">
+                                                        <!-- start  of a mining news -->
+
+                                                        <article>
+                                                               <img
+                                                                      class="main-news-img"
+                                                                      src="./images/crypto-news-2-600x450.jpg"
+                                                               />
+                                                               <h3 class="article-title">
+                                                                      <a href="#">
+                                                                             2017 Market Performance: Crypto vs Stock
+                                                                      </a>
+                                                               </h3>
+                                                               <ul class="info-bar">
+                                                                      <li>
+                                                                             <span class="text-muted">
+                                                                                    by
+                                                                                    <a href="#"
+                                                                                           ><b class="text-black"
+                                                                                                  >Olivia Capzallo</b
+                                                                                           ></a
+                                                                                    >, Jan 25,2018
+                                                                             </span>
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-bolt text-yellow"></i
+                                                                             >30,190
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-comment text-yellow"></i>30
+                                                                      </li>
+                                                               </ul>
+                                                        </article>
+
+                                                        <!-- end  of a mining news -->
+
+                                                        <!-- start  of a mining news -->
+
+                                                        <article>
+                                                               <img
+                                                                      class="main-news-img"
+                                                                      src="./images/crypto-news-1-600x450.jpg"
+                                                               />
+                                                               <h3 class="article-title">
+                                                                      <a href="#">
+                                                                             2017 Market Performance: Crypto vs Stock
+                                                                      </a>
+                                                               </h3>
+                                                               <ul class="info-bar">
+                                                                      <li>
+                                                                             <span class="text-muted">
+                                                                                    by
+                                                                                    <a href="#"
+                                                                                           ><b class="text-black"
+                                                                                                  >Olivia Capzallo</b
+                                                                                           ></a
+                                                                                    >, Jan 25,2018
+                                                                             </span>
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-bolt text-yellow"></i
+                                                                             >30,190
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-comment text-yellow"></i>30
+                                                                      </li>
+                                                               </ul>
+                                                        </article>
+                                                 </section>
+                                                 <!-- end of mining news conntainer  -->
+                                          </section>
+                                          <!-- end  of a mining news -->
+                                   </main>
+                                   <!-- end of main base -->
+
+                                   <!-- start of side bar -->
+                                   <aside class="side-bar">
+                                          <!-- start of crypto list side bar item -->
+
+                                          <section class="side-bar-item">
+                                                 <ul class="crypto-list">
+                                                        <li><b>1 BTC = $13,2323</b></li>
+                                                        <li><b>1 BTC = $13,2323</b></li>
+                                                        <li><b>1 BTC = $13,2323</b></li>
+                                                        <li><b>1 BTC = $13,2323</b></li>
+                                                        <li><b>1 BTC = $13,2323</b></li>
+                                                        <li><b>1 BTC = $13,2323</b></li>
+                                                 </ul>
+                                          </section>
+
+                                          <!-- end of crypto list side  bar item -->
+
+                                          <!-- start of popular news  side bar item -->
+
+                                          <section class="side-bar-item">
+                                                 <h2 class="title">POPULAR POSTS</h2>
+
+                                                 <!-- every .popular-post belongs to articles in popular posts section -->
+                                                 <section class="popular-post">
+                                                        <img src="./images/polular-1-100x100.jpg" />
+                                                        <section class="popular-post-desc">
+                                                               <h3>
+                                                                      <a href="#"
+                                                                             ><b
+                                                                                    >Bitcoin Billionars Hidding in Plain
+                                                                                    Sight</b
+                                                                             ></a
+                                                                      >
+                                                               </h3>
+                                                               <ul class="info-bar">
+                                                                      <li>
+                                                                             <span class="text-muted">
+                                                                                    by
+                                                                                    <a href="#"
+                                                                                           ><b class="text-black"
+                                                                                                  >Olivia Capzallo</b
+                                                                                           ></a
+                                                                                    >, Jan 25,2018
+                                                                             </span>
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-bolt text-yellow"></i
+                                                                             >30,190
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-comment text-yellow"></i>30
+                                                                      </li>
+                                                               </ul>
+                                                        </section>
+                                                 </section>
+
+                                                 <section class="popular-post">
+                                                        <img src="./images/polular-2-100x100.jpg" />
+                                                        <section class="popular-post-desc">
+                                                               <h3>
+                                                                      <a href="#"
+                                                                             ><b
+                                                                                    >Bitcoin Billionars Hidding in Plain
+                                                                                    Sight</b
+                                                                             ></a
+                                                                      >
+                                                               </h3>
+                                                               <ul class="info-bar">
+                                                                      <li>
+                                                                             <span class="text-muted">
+                                                                                    by
+                                                                                    <a href="#"
+                                                                                           ><b class="text-black"
+                                                                                                  >Olivia Capzallo</b
+                                                                                           ></a
+                                                                                    >, Jan 25,2018
+                                                                             </span>
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-bolt text-yellow"></i
+                                                                             >30,190
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-comment text-yellow"></i>30
+                                                                      </li>
+                                                               </ul>
+                                                        </section>
+                                                 </section>
+
+                                                 <section class="popular-post">
+                                                        <img src="./images/polular-3-100x100.jpg" />
+                                                        <section class="popular-post-desc">
+                                                               <h3>
+                                                                      <a href="#"
+                                                                             ><b
+                                                                                    >Bitcoin Billionars Hidding in Plain
+                                                                                    Sight</b
+                                                                             ></a
+                                                                      >
+                                                               </h3>
+                                                               <ul class="info-bar">
+                                                                      <li>
+                                                                             <span class="text-muted">
+                                                                                    by
+                                                                                    <a href="#"
+                                                                                           ><b class="text-black"
+                                                                                                  >Olivia Capzallo</b
+                                                                                           ></a
+                                                                                    >, Jan 25,2018
+                                                                             </span>
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-bolt text-yellow"></i
+                                                                             >30,190
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-comment text-yellow"></i>30
+                                                                      </li>
+                                                               </ul>
+                                                        </section>
+                                                 </section>
+
+                                                 <section class="popular-post">
+                                                        <img src="./images/polular-4-100x100.jpg" />
+                                                        <section class="popular-post-desc">
+                                                               <h3>
+                                                                      <a href="#"
+                                                                             ><b
+                                                                                    >Bitcoin Billionars Hidding in Plain
+                                                                                    Sight</b
+                                                                             ></a
+                                                                      >
+                                                               </h3>
+                                                               <ul class="info-bar">
+                                                                      <li>
+                                                                             <span class="text-muted">
+                                                                                    by
+                                                                                    <a href="#"
+                                                                                           ><b class="text-black"
+                                                                                                  >Olivia Capzallo</b
+                                                                                           ></a
+                                                                                    >, Jan 25,2018
+                                                                             </span>
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-bolt text-yellow"></i
+                                                                             >30,190
+                                                                      </li>
+                                                                      <li>
+                                                                             <i class="fa fa-comment text-yellow"></i>30
+                                                                      </li>
+                                                               </ul>
+                                                        </section>
+                                                 </section>
+                                          </section>
+
+                                          <!-- end of popular news  side bar item -->
+
+                                          <!-- start of newsletter side  bar  item -->
+
+                                          <section class="side-bar-item">
+                                                 <h2 class="title">NEWSLETTER</h2>
+
+                                                 <p>
+                                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis,
+                                                        ducimus itaque
+                                                 </p>
+
+                                                 <form class="subscribe-form">
+                                                        <input
+                                                               type="text"
+                                                               placeholder="Your E-mail"
+                                                               class="subscribe-form-text"
+                                                        />
+                                                        <button>
+                                                               <i
+                                                                      class="fa fa-angle-double-right"
+                                                                      aria-hidden="true"
+                                                               ></i>
+                                                        </button>
+                                                        <section class="clear-fix"></section>
+                                                 </form>
+                                          </section>
+                                          <!-- end of newsletter side  bar  item -->
+                                   </aside>
+                                   <!-- end of side bar -->
+                            </section>
+                            <!-- end of .container -->
+                     </section>
+                     <!-- end of .content -->
+              </section>
+              <!-- end of .app section -->
+
+              <!-- start of footer -->
+              <footer class="footer">
+                     <!-- give .app to section for responsive purpose -->\
+                     <!-- start of .app of footer  -->
+                     <section class="app bg-map">
+                            <!-- footer has 3 rows  -->
+                            <!-- start of .footer-row 1/3 -->
+
+                            <section class="footer-row">
+                                   <!-- this row has 3 cols -->
+                                   <!-- start of 1/3 col -->
+                                   <section class="footer-col">
+                                          <img src="./images/logo-white.png" class="footer-logo" />
+
+                                          <p class="footer-p">
+                                                 Bit Coin is an open-source, peer-to-peer, digitall decentralized
+                                                 creyptocurrency. Powered by blockchain technology, it defining
+                                                 characteristic is
+                                          </p>
+
+                                          <p class="footer-p p-bottom">
+                                                 Copyright 20200 all reserved | This template is made by
+                                                 <a href="#"><b>Mahdi Koohneshin</b></a>
+                                          </p>
+                                   </section>
+                                   <!-- end of 1/3 col -->
+
+                                   <!-- start of 2/3 col -->
+                                   <section class="footer-col">
+                                          <h3 class="footer-section-title">MOST POPULAR</h3>
+                                          <section class="footer-section-link-item">
+                                                 <a href="#">Its Make or Break Time for Bitcoin</a>
+
+                                                 <p>Jan 25, 2018</p>
+                                          </section>
+                                          <section class="footer-line"></section>
+                                          <section class="footer-section-link-item">
+                                                 <a href="#">Bitcoin's roller coster ride is not over</a>
+
+                                                 <p>Jan 25, 2018</p>
+                                          </section>
+                                   </section>
+                                   <!-- end of 2/3 col -->
+
+                                   <!-- start of 3/3 col -->
+                                   <section class="footer-col">
+                                          <h3 class="footer-section-title">MOST POPULAR</h3>
+                                          <section class="footer-section-link-item">
+                                                 <a href="#">Its Make or Break Time for Bitcoin</a>
+
+                                                 <p>Jan 25, 2018</p>
+                                          </section>
+                                          <section class="footer-line"></section>
+                                          <section class="footer-section-link-item">
+                                                 <a href="#">Bitcoin's roller coster ride is not over</a>
+
+                                                 <p>Jan 25, 2018</p>
+                                          </section>
+                                   </section>
+                                   <!-- end of 3/3 col -->
+                            </section>
+
+                            <!-- end of .footer-row 1/3 -->
+
+                            <!-- start of .footer-line 2/3 -->
+
+                            <section class="footer-line"></section>
+
+                            <!-- end of .footer-line 2/3 -->
+
+                            <!-- start of .footer-row 3/3 -->
+
+                            <section class="footer-row">
+                                   <ul class="footer-menu">
+                                          <li><a href="#">Term & Conditions</a></li>
+                                          <li><a href="#">Privacy policy</a></li>
+                                          <li><a href="#">Job advertising</a></li>
+                                          <li><a href="#">Contact us</a></li>
+                                   </ul>
+
+                                   <ul class="footer-social-network">
+                                          <li>
+                                                 <a href="#"><i class="fa fa-facebook"></i></a>
+                                          </li>
+                                          <li>
+                                                 <a href="#"><i class="fa fa-twitter"></i></a>
+                                          </li>
+                                          <li>
+                                                 <a href="#"><i class="fa fa-google-plus"></i></a>
+                                          </li>
+                                          <li>
+                                                 <a href="#"><i class="fa fa-bitcoin"></i></a>
+                                          </li>
+                                   </ul>
+                            </section>
+                            <!-- end of .footer-row 3/3 -->
+                     </section>
+                     <!-- end of .app of footer -->
+              </footer>
+              <!-- end of footer -->
+
+              <!-- js  -->
+              <script>
+                     // start of js for  burger  menu
+                     function showMenu() {
+                            var menu = document.querySelector(".header-menu");
+                            if (menu.className === "header-menu") {
+                                   menu.className += " show";
+                            } else {
+                                   menu.className = "header-menu";
+                            }
+                     }
+              </script>
+       </body>
+</html>
